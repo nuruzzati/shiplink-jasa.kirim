@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Invoice</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#" style="display: flex; align-items: center; margin-bottom: -0.01px">ShipLink</a>
+      </div>
+
+      <div class="header-icons" style="gap: 50px">
+        <div class="notification">
+          <p style="display: flex; align-items: center">
+            <img style="width: 20px; height: 20px" src="../img/image 73.png" alt="" class="text-hps" />Notification <img style="height: 20px; width: 20px" src="../img/chevron-down.png" alt="" />
+          </p>
+        </div>
+        <div class="eng">
+          <p style="display: flex; align-items: center"><img style="width: 20px; height: 20px" src="../img/circle-flags_uk.png" alt="" class="text-hps" />Eng <img style="width: 20px; height: 20px" src="../img/chevron-down.png" alt="" /></p>
+        </div>
+        <div class="img-admin" style="display: flex; align-items: center">
+          <img src="../img/Rectangle 1835.png" alt="" />
+          <div class="text-admin">
+            <p>Username</p>
+            <p>Admin</p>
+          </div>
+          <img style="width: 20px; height: 20px" src="../img/chevron-down.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <nav>
+        <div class="side_navbar">
+          <a href="index.html"
+            ><img src="../img/icon-arivalscan.png" alt="" />
+            <p>Arrival Scan</p></a
+          >
+          <a href="verification.html"
+            ><img src="../img/icon-verification.png" alt="" />
+            <p>Verification</p></a
+          >
+          <a href="pars-management.html"
+            ><img src="../img/icon-pars.png" alt="" />
+            <p>PARS Management</p></a
+          >
+          <a href="custom-broker.html"
+            ><img src="../img/icon-custom-broker.png" alt="" />
+            <p>Customs Broker</p></a
+          >
+          <a href="transport.html"
+            ><img src="../img/icon-transport.png" alt="" />
+            <p>Transport Preparation</p></a
+          >
+          <a href="custom-clearance.html"
+            ><img src="../img/icon-custom-clereance.png" alt="" />
+            <p>Custom Clearance</p></a
+          >
+          <a href="destination.html"
+            ><img src="../img/icon-destinition.png" alt="" />
+            <p>Destination Scan</p></a
+          >
+          <a href="bin-manager.html"
+            ><img src="../img/icon-bin-manager.png" alt="" />
+            <p>Bin Manager</p></a
+          >
+          <a style="border-left: 8px solid rgba(0, 0, 0, 0.721); background-color: #bcbcba5a; color: #0101007c; font-weight: bold; border-radius: 5px" href="invoice.html"
+            ><img src="../img/icon-invoice.png" alt="" />
+            <p>Invoice Manager</p></a
+          >
+          <a href="asisted-purchase.html"
+            ><img src="../img/icon-asisten-purchese.png" alt="" />
+            <p>Assisted Purchase</p></a
+          >
+          <a href="support-ticket.html"
+            ><img src="../img/icon-support-ticket.png" alt="" />
+            <p>Support Tickets</p></a
+          >
+          <h3 style="color: #0101005d; border-bottom: 2px solid #0101002b; width: 80%; margin-left: 10px; margin-top: 10px; margin-bottom: 10px">SETTINGS</h3>
+          <a href="warehouse.html"
+            ><img src="../img/icon-warehouse.png" alt="" />
+            <p>Warehouse Manager</p></a
+          >
+          <a href="product-manager.html"
+            ><img src="../img/icon-produk-manager.png" alt="" />
+            <p>Product Manager</p></a
+          >
+          <a href="customer.html"
+            ><img src="../img/icon-custom-manager.png" alt="" />
+            <p>Customer Manager</p></a
+          >
+          <a href="user-permission.html" class="btn-side"
+            ><img src="../img/icon-user-and-permission.png" alt="" />
+            <p>User and Permission</p></a
+          >
+          <a href="configuration.html" class="btn-side"
+            ><img src="../img/i-config.png" alt="" />
+            <p>Configuration</p></a
+          >
+        </div>
+      </nav>
+
+      <div class="main-body">
+        <div class="card-body kiri" style="width: 70%">
+          <div class="card-full">
+            <div class="konten-card-full">
+              <div class="konten-img">
+                <div class="logo"><img src="../img/g-invoice.png" style="margin-right: 10px" alt="" /></div>
+                <div class="p">
+                  <p class="arrival">Invoice # 1231412</p>
+                  <p class="add-new">Amount Due : $0.00 (CAD)</p>
+                  <p class="add-new">Date : 22 Apr, 2023</p>
+                  <p class="add-new">Select Another Date</p>
+                </div>
+                <br />
+              </div>
+            </div>
+
+            <div class="card src">
+              <div class="search">
+                <label for="">Terms</label>
+                <input type="date" placeholder="search" style="width: 100%" />
+              </div>
+              <div class="filter">
+                <label for="">Currency</label><br />
+                <select name="" id="" style="width: 200px; margin-bottom: 1px">
+                  <option value="">Select Currency</option>
+                </select>
+              </div>
+              <div class="search">
+                <label for="">Email</label>
+
+                <input type="email" placeholder="Email" style="width: 100%" />
+              </div>
+            </div>
+            <div class="card src" style="gap: 10px">
+              <div class="search">
+                <label for="">Billed To</label><br />
+                <label for="">Name</label>
+                <input type="text" placeholder="Input Name" style="width: 100%" />
+              </div>
+              <div class="search">
+                <label for="">.</label><br />
+                <label for="">Zip/Postal Code *</label>
+                <input type="text" placeholder="Input Postal Code" style="width: 100%" />
+              </div>
+              <div class="filter">
+                <label for="">Shipped To</label><br />
+                <label for="">Name *</label><br />
+                <input name="" type="text" id="" placeholder="Input Name" style="width: 200px; margin-bottom: 1px" />
+              </div>
+              <div class="search">
+                <label for="">.</label><br />
+
+                <label for="">Zip/Postal Code *</label>
+
+                <input type="email" placeholder="Email" style="width: 100%" />
+              </div>
+            </div>
+            <div class="card src" style="gap: 10px">
+              <div class="search">
+                <label for="">Address</label>
+                <input type="text" placeholder="Input Address" style="width: 100%" />
+              </div>
+              <div class="filter">
+                <label for="">Country</label><br />
+                <select name="" id="" style="width: 200px; margin-bottom: 1px">
+                  <option value="">Canada</option>
+                </select>
+              </div>
+              <div class="search">
+                <label for="">Address</label>
+                <input type="text" placeholder="search" style="width: 100%" />
+              </div>
+              <div class="filter">
+                <label for="">Country</label><br />
+                <select name="" id="" style="width: 200px; margin-bottom: 1px">
+                  <option value="">Canada</option>
+                </select>
+              </div>
+            </div>
+            <div class="card" style="gap: 10px">
+              <label for="">Note</label><br />
+              <input type="text" placeholder="Add Note" />
+            </div>
+            <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+              <div style="flex-grow: 4; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="item">item</div>
+              <div style="flex-grow: 1; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="quantity">quantity</div>
+              <div style="flex-grow: 1; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="price">price</div>
+              <div style="flex-grow: 1; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="total">total</div>
+            </div>
+            <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+              <input type="text" placeholder="item" style="width: 50%" />
+              <input type="text" placeholder="quantity" style="width: 21%" />
+              <input type="text" placeholder="price" style="width: 21%" />
+              <input type="text" placeholder="total" style="width: 21%" />
+              <a href=""> <img style="height: 35px" src="sampah.png" alt="" /></a>
+            </div>
+            <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+              <input type="text" placeholder="Description" style="width: 43%" />
+            </div>
+          </div>
+          <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+            <input type="text" placeholder="item" style="width: 50%" />
+            <input type="text" placeholder="quantity" style="width: 21%" />
+            <input type="text" placeholder="price" style="width: 21%" />
+            <input type="text" placeholder="total" style="width: 21%" />
+            <a href=""> <img style="height: 35px" src="sampah.png" alt="" /></a>
+          </div>
+          <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+            <input type="text" placeholder="Description" style="width: 43%" />
+          </div>
+          <a href="#" style="font-size: 12px; font-weight: bold">+ Add new data</a>
+          <div class="subb" style="display: flex; justify-content: flex-end; margin-bottom: 10px; gap: 100px">
+            <div class="subtotal" style="margin-right: 80px">subtotal</div>
+            <div class="dolar">$12.00</div>
+          </div>
+          <div class="sub" style="display: flex; justify-content: flex-end">
+            <div class="btn-2" style="display: flex; justify-content: right; flex-direction: column">
+              <a style="text-transform: capitalize; border: 1px solid red; border-radius: 4px; padding: 5px; color: red; text-align: center; margin-right: 35px; margin-top: 10px" class="add">add-text</a>
+              <a style="text-transform: capitalize; border: 1px solid red; border-radius: 4px; padding: 5px; color: red; text-align: center; margin-right: 35px; margin-top: 10px" class="add">add Discount</a>
+              <p style="margin-top: 20px; margin-right: 70px; color: #00509d; border-top: #82868a9d 1px solid">Amount Due ( $CAD)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body kanan" style="width: 30% !important; height: 68.7%">
+          <div class="atas" style="padding: 10px">
+            <h2 style="color: rgb(76, 114, 227); margin-bottom: 10px">Send Voice To</h2>
+            <h4 style="color: #333333; font-weight: 600; font-size: 16px">Email</h4>
+            <input type="email" style="width: 90%" placeholder="Search User Account" />
+          </div>
+
+          <div class="buttons" style="display: flex; justify-content: center; gap: 10px">
+            <a href="#" class="preview" style="padding: 10px; border-radius: 5px; color: red; border: 2px solid red; background-color: white; font-weight: 600">Preview</a>
+            <a href="#" class="download" style="padding: 10px; border-radius: 5px; color: red; border: 2px solid red; background-color: white; font-weight: 600">Download</a>
+          </div>
+
+          <div class="btns" style="display: flex; justify-content: center; text-align: center">
+            <a href="#" class="send" style="background-color: red; font-size: 16px; color: white; padding: 7px; border-radius: 5px; width: 65%; margin-top: 10px">Send</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

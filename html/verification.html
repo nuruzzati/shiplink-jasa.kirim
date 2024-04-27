@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>verification</title>
+    <link rel="stylesheet" href="../css/verification.css" />
+    <style>
+      .hidden {
+        display: none;
+        opacity: 0; /* Set opacity to 0 for a fade-in effect */
+        transition: opacity 0.3s ease; /* Adjust the duration and timing function as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#" style="display: flex; align-items: center; margin-bottom: -0.01px">ShipLink</a>
+      </div>
+
+      <div class="header-icons" style="gap: 50px">
+        <div class="notification">
+          <p style="display: flex; align-items: center">
+            <img style="width: 20px; height: 20px" src="../img/image 73.png" alt="" class="text-hps" />Notification <img style="height: 20px; width: 20px" src="../img/chevron-down.png" alt="" />
+          </p>
+        </div>
+        <div class="eng">
+          <p style="display: flex; align-items: center"><img style="width: 20px; height: 20px" src="../img/circle-flags_uk.png" alt="" class="text-hps" />Eng <img style="width: 20px; height: 20px" src="../img/chevron-down.png" alt="" /></p>
+        </div>
+        <div class="img-admin" style="display: flex; align-items: center">
+          <img src="../img/Rectangle 1835.png" alt="" />
+          <div class="text-admin">
+            <p>Username</p>
+            <p>Admin</p>
+          </div>
+          <img style="width: 20px; height: 20px" src="../img/chevron-down.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <nav>
+        <div class="side_navbar">
+          <a href="index.html"
+            ><img src="../img/icon-arivalscan.png" alt="" />
+            <p>Arrival Scan</p></a
+          >
+          <a style="border-left: 8px solid rgba(0, 0, 0, 0.721); background-color: #bcbcba5a; color: #0101007c; font-weight: bold; border-radius: 5px" href="verification.html"
+            ><img src="../img/icon-verification.png" alt="" />
+            <p>Verification</p></a
+          >
+          <a href="pars-management.html"
+            ><img src="../img/icon-pars.png" alt="" />
+            <p>PARS Management</p></a
+          >
+          <a href="custom-broker.html"
+            ><img src="../img/icon-custom-broker.png" alt="" />
+            <p>Customs Broker</p></a
+          >
+          <a href="transport.html"
+            ><img src="../img/icon-transport.png" alt="" />
+            <p>Transport Preparation</p></a
+          >
+          <a href="custom-clearance.html"
+            ><img src="../img/icon-custom-clereance.png" alt="" />
+            <p>Custom Clearance</p></a
+          >
+          <a href="destination.html"
+            ><img src="../img/icon-destinition.png" alt="" />
+            <p>Destination Scan</p></a
+          >
+          <a href="bin-manager.html"
+            ><img src="../img/icon-bin-manager.png" alt="" />
+            <p>Bin Manager</p></a
+          >
+          <a href="invoice.html"
+            ><img src="../img/icon-invoice.png" alt="" />
+            <p>Invoice Manager</p></a
+          >
+          <a href="asisted-purchase.html"
+            ><img src="../img/icon-asisten-purchese.png" alt="" />
+            <p>Assisted Purchase</p></a
+          >
+          <a href="support-ticket.html"
+            ><img src="../img/icon-support-ticket.png" alt="" />
+            <p>Support Tickets</p></a
+          >
+          <h3 style="color: #0101005d; border-bottom: 2px solid #0101002b; width: 80%; margin-left: 10px; margin-top: 10px; margin-bottom: 10px">SETTINGS</h3>
+          <a href="warehouse.html"
+            ><img src="../img/icon-warehouse.png" alt="" />
+            <p>Warehouse Manager</p></a
+          >
+          <a href="product-manager.html"
+            ><img src="../img/icon-produk-manager.png" alt="" />
+            <p>Product Manager</p></a
+          >
+          <a href="customer.html"
+            ><img src="../img/icon-custom-manager.png" alt="" />
+            <p>Customer Manager</p></a
+          >
+          <a href="user-permission.html" class="btn-side"
+            ><img src="../img/icon-user-and-permission.png" alt="" />
+            <p>User and Permission</p></a
+          >
+          <a href="configuration.html" class="btn-side"
+            ><img src="../img/i-config.png" alt="" />
+            <p>Configuration</p></a
+          >
+        </div>
+      </nav>
+      <div class="main-body">
+        <div class="card-body">
+          <div class="card-full">
+            <div class="konten-card-full">
+              <div class="konten-img">
+                <div class="logo" style="margin-right: 5px"><img src="../img/g-verification.png" alt="" /></div>
+                <div class="p">
+                  <p class="arrival">Verification</p>
+                  <p class="add-new">Found 140 Items</p>
+                </div>
+                <br />
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="layout">
+              <div class="isi-layout">
+                <input type="search" class="search" placeholder="search" />
+              </div>
+              <div class="isi-layout">
+                <img src="../img/Vector.png" class="filter" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <table>
+            <div class="judul-table">
+              <tr class="tbl-judul">
+                <th class="tbl-kiri">Tracking ID</th>
+                <th>Customer Name</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Last Update</th>
+                <th class="tbl-kanan">Customs Status</th>
+              </tr>
+            </div>
+
+            <div class="isi-table">
+              <tr>
+                <td class="tbl-kiri">#872812138328</td>
+                <td>12345678910</td>
+                <td>12345678910</td>
+                <td>12345678910</td>
+                <td>Tshirt, Long Shirt.</td>
+                <td class="tbl-kanan">
+                  <button style="cursor: pointer" class="toggle-btn"><img src="../img/vvv2.png" alt="" /></button>
+                </td>
+              </tr>
+              <!-- Hapus div.hidden, dan tambahkan class "hidden" langsung ke elemen tr -->
+              <tr class="hidden">
+                <td>.</td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td>.</td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Qty</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Value</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">User Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">HS Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Hs code</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Made In</p>
+                  <p>1</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Qty</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Value</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">User Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">HS Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Hs code</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Made In</p>
+                  <p>CAN</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Package Dimension</p>
+                  <p>12 mm x 10 mm x 10 mm | 10 Ibs</p>
+                </td>
+                <td>
+                  <p>.</p>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Invoice</a>
+                  <select style="border: 1px solid #999; padding: 5px; border-radius: 5px; margin-top: 10px" name="" id="">
+                    <option value="">Invoice</option>
+                    <option value="">Donwload Invoice 1</option>
+                    <option value="">Donwload Invoice 2</option>
+                  </select>
+                  <p>.</p>
+                </td>
+                <td>
+                  <a href="#"></a>
+                </td>
+                <td>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Edit</a>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Mark Verified</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="tbl-kiri">#872812138328</td>
+                <td>12345678910</td>
+                <td>12345678910</td>
+                <td>12345678910</td>
+                <td>Tshirt, Long Shirt.</td>
+                <td class="tbl-kanan">
+                  <button style="cursor: pointer" class="toggle-btn"><img src="../img/vvv2.png" alt="" /></button>
+                </td>
+              </tr>
+              <!-- Hapus div.hidden, dan tambahkan class "hidden" langsung ke elemen tr -->
+              <tr class="hidden">
+                <td>.</td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td>.</td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Qty</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Value</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">User Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">HS Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Hs code</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Made In</p>
+                  <p>1</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Qty</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Value</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">User Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">HS Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Hs code</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Made In</p>
+                  <p>CAN</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Package Dimension</p>
+                  <p>12 mm x 10 mm x 10 mm | 10 Ibs</p>
+                </td>
+                <td>
+                  <p>.</p>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Invoice</a>
+                  <select style="border: 1px solid #999; padding: 5px; border-radius: 5px; margin-top: 10px" name="" id="">
+                    <option value="">Invoice</option>
+                    <option value="">Donwload Invoice 1</option>
+                    <option value="">Donwload Invoice 2</option>
+                  </select>
+                  <p>.</p>
+                </td>
+                <td>
+                  <a href="#"></a>
+                </td>
+                <td>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Edit</a>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Mark Verified</a>
+                </td>
+              </tr>
+            </div>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Temukan semua tombol toggle dan elemen yang akan ditampilkan/sembunyikan
+        var toggleBtns = document.querySelectorAll('.toggle-btn');
+
+        toggleBtns.forEach(function (toggleBtn) {
+          toggleBtn.addEventListener('click', function () {
+            // Temukan elemen terkait dengan tombol yang diklik
+            var additionalData = this.closest('tr').nextElementSibling;
+
+            // Periksa apakah elemen sedang ditampilkan atau tidak
+            if (additionalData.style.display === 'none' || additionalData.style.display === '') {
+              // Jika tidak ditampilkan, tampilkan dengan efek transisi
+              additionalData.style.display = 'table-row'; // Menggunakan 'table-row' untuk elemen tr
+              setTimeout(function () {
+                additionalData.style.opacity = '1';
+              }, 10); // Timeout diperlukan untuk memastikan transisi dimulai setelah tampilan diubah
+            } else {
+              // Jika ditampilkan, sembunyikan dengan efek transisi
+              additionalData.style.opacity = '0';
+              setTimeout(function () {
+                additionalData.style.display = 'none';
+              }, 300); // Timeout set ke durasi transisi untuk memastikan transisi selesai sebelum elemen disembunyikan
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
